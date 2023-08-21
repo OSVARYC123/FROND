@@ -1,0 +1,80 @@
+.txt-nombrePlatillo {
+  margin-top: 15px;
+}
+
+.fotoPlatillos {
+  max-width: 95%;
+  transition: transform 0.3s;
+}
+
+.fotoPlatillos:hover {
+  transform: scale(1.1);
+}
+
+.fotoPlatillos3 {
+  max-width: 87%;
+  transition: transform 0.3s;
+}
+
+.fotoPlatillos3:hover {
+  transform: scale(1.1);
+}
+
+.containerPlatillos {
+  margin-top: 80px;
+  margin-block-end: 82px;
+}
+
+.btn-masPlatillos {
+  width: 224px;
+  height: 76px;
+  background-color: #4b4124;
+  color: #fff;
+  border-radius: 38px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.61);
+  font-family: Atlane;
+  font-size: 20px;
+  background-image: url("../img/iconoPoots.png");
+
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: left;
+  transition: transform 0.3s;
+}
+
+.btn-masPlatillos:hover {
+  transform: scale(1.1);
+}
+
+.text-break {
+  font-size: 32px;
+  color: #3a3a3a;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text-break {
+    font-size: 100%;
+  }
+
+  .fotoPlatillos{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+
+  .fotoPlatillos3 {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .btn-masPlatillos {
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    background-size: 40px 40px;
+  }
+}

@@ -1,0 +1,70 @@
+.text-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px;
+}
+
+.text-content {
+  flex: 2;
+  padding-right: 20px;
+  font-family: Atlane;
+}
+
+.txt-ComidaMexicana {
+  color: #000;
+  font-family: Atlane;
+  font-size: 48px;
+}
+
+.txt-descripcionComidaMexicana {
+  font-size: 24px;
+  color: #3e3e3e;
+  margin-top: 20px;
+  font-family: Atlane;
+}
+
+.image-content-comida {
+  flex: 2;
+  text-align: right;
+  margin-block-end: 77px;
+}
+
+.image-content-comida img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 135px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .text-image-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .text-content {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .txt-ComidaMexicana {
+    font-size: 36px;
+  }
+
+  .txt-descripcionComidaMexicana {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .image-content-comida {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .image-content-comida img {
+    border-radius: 14%;
+  }
+}

@@ -1,0 +1,20 @@
+.txt-instalaciones {
+  color: #000;
+  font-family: Atlane;
+  font-size: 40px;
+}
+
+.txt-ubicacion {
+  font-size: 30px;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .txt-instalaciones {
+    font-size: 36px;
+  }
+
+  .txt-ubicacion {
+    font-size: 22px;
+  }
+}

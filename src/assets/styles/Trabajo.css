@@ -1,0 +1,28 @@
+.txt-trabajos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fondoTrabajo {
+  background-color: #f3f4f4;
+  padding: 50px 0;
+}
+
+.txt-NuestroTrabajo-titulo {
+  font-family: Atlane;
+  font-size: 40px;
+  color: #000;
+}
+
+.txt-NuestroTrabajo-Descripcion {
+  padding-top: 24px;
+  font-family: Atlane;
+  font-size: 24px;
+  color: #292929;
+}
+
+.fotoTrabajo {
+  margin-top: 90px;
+  margin-block-end: 91px;
+}

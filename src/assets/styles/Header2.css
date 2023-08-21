@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-width: 200px;
+  padding-left: 32px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 180px;
+  padding-right: 75px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #4b4124;
+  font-family: Atlane;
+  font-size: 32px;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+ @media screen and (min-width: 768px) and (max-width: 1440px){
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .logo img {
+    padding-left: 0;
+    max-width: 150px;
+  }
+
+  .botonHeader {
+    font-size: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}

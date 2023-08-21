@@ -1,0 +1,11 @@
+.txt-Galeria {
+  color: #c00222;
+  font-family: Atlane;
+  font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+  .txt-Galeria {
+    font-size: 8vw;
+  }
+}

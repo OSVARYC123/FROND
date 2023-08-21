@@ -1,0 +1,390 @@
+/* .fondo-footer {
+  width: 2000px;
+  height: 450px;
+  background-color: #4b4124;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  grid-column: span 2;
+  color: #ffffff;
+  margin-top: 44px;
+}
+
+.txt-formularios-nom {
+  display: flex;
+  width: 102px;
+  height: 37px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #fff;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.txt-name-secciones {
+  font-family: Atlane;
+  font-size: 24px;
+}
+
+.txt-numeros {
+  font-size: 28px;
+}
+
+.button-formulario {
+  width: 468.256px;
+  height: 50px;
+  border-radius: 10px;
+
+  color: #282724;
+  font-family: Atlane;
+  background: #a09c8e;
+
+  color: #fff;
+  text-align: center;
+  font-family: Atlane;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.61);
+}
+
+.contacto {
+  margin-top: 54px;
+  width: 260px;
+  height: 168px;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.TC {
+  display: flex;
+  width: 224px;
+  height: 31px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Atlane;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 25%;
+}
+
+.num1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-bottom: 15%;
+}
+
+.num2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15%;
+}
+
+.correo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.direccion {
+  margin-top: 54px;
+  width: 261px;
+  height: 140px;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.dn {
+  display: flex;
+  width: 225px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  font-family: Atlane;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20%;
+}
+
+.dire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.redes-sociales {
+  margin-top: 54px;
+  width: 387px;
+  height: 231px;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.rs {
+  display: flex;
+  width: 347px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  font-family: Atlane;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15%;
+}
+
+.rsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10%;
+}
+
+.rst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10%;
+}
+
+.rsf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  text-align: justify;
+  font-family: Jamie Woods;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.swal2-title {
+  font-family: Atlane;
+} */
+
+/* @media screen and (max-width: 768px) {
+  .fondo-footer {
+    height: 100%;
+    max-width: 100%;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .formulario {
+    width: 375px;
+    height: 812px;
+  }
+
+  .button-formulario {
+    width: 300px;
+  }
+
+  .contacto {
+    width: 375px;
+    height: 812px;
+    margin-top: -350px;
+  }
+
+  .direccion {
+    width: 375px;
+    height: 812px;
+    margin-top: -400px;
+  }
+
+  .redes-sociales {
+    width: 375px;
+    height: 812px;
+    margin-top: -500px;
+  }
+}
+ */
+
+.fondo-footer {
+  background-color: #4b4124;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.txt-formularios-nom {
+  color: #fff;
+  font-family: Jamie Woods;
+  font-size: 28px;
+}
+
+.button-formulario {
+  margin-top: 5px;
+  color: #282724;
+  background-color: #A09C8E;
+  text-align: center;
+  font-family: Atlane;
+  font-size: 24px;
+}
+.contacto{
+  padding-block: 5%;
+}
+.TC {
+  font-family: Atlane;
+  font-size: 28px;
+}
+
+.num1 {
+  font-family: Jamie Woods;
+  font-size: 28px;
+}
+
+.num2 {
+  font-family: Jamie Woods;
+  font-size: 28px;
+}
+
+.correo {
+  font-family: Jamie Woods;
+  font-size: 28px;
+}
+
+.direccion{
+  padding-block: 5%;
+}
+
+.dn {
+  font-family: Atlane;
+  font-size: 28px;
+}
+
+.dire {
+  font-family: Jamie Woods;
+  font-size: 28px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1096px){
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .column {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+
+  .rsi {
+    text-align: justify;
+    font-family: Jamie Woods;
+    font-size: 23px;
+  }
+
+  .rst {
+    text-align: justify;
+    font-family: Jamie Woods;
+    font-size: 23px;
+  }
+
+  .rsf {
+    text-align: justify;
+    font-family: Jamie Woods;
+    font-size: 23px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .swal2-container {
+    width: 375%;
+    max-width: 110%;
+    margin-left: -5%;
+    color: #4B4124;
+    text-align: center;
+    font-family: Jamie Woods;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+  }
+}

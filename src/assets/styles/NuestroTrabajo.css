@@ -1,0 +1,51 @@
+.text-image-container-nt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px;
+}
+
+.text-content-nt2 {
+  flex: 2;
+  padding-right: 100px;
+}
+
+.image-content-nt2 {
+  flex: 2;
+  text-align: right;
+}
+
+.image-content-nt2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.txt-descripcion2 {
+  font-size: 24px;
+  font-style: normal;
+  color: #292929;
+  font-family: Atlane;
+}
+
+.txt-nt {
+  font-size: 40px;
+  color: #000000;
+  font-family: Atlane;
+}
+
+@media (max-width: 768px) {
+  .text-image-container-nt2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .foto-trabajo {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .foto-trabajo img {
+    border-radius: 500%;
+  }
+}
